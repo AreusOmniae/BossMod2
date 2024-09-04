@@ -159,8 +159,5 @@ public sealed class PLD(RotationModuleManager manager, Actor player) : Attackxan
             if (NumAOETargets > 0)
                 PushOGCD(AID.CircleOfScorn, Player);
         }
-
-        if (FightOrFlight > 0)
-            PushOGCD(AID.Intervene, primaryTarget);
     }
 }
